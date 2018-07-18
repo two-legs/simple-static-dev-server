@@ -6,10 +6,53 @@
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/index.css" />
+  <link href="https://fonts.googleapis.com/css?family=Jura|PT+Serif|Roboto:300,400" rel="stylesheet">
   <script src="assets/js/index.js"></script>
 </head>
 <body>
-  <h1>HTML page</h1>
-  <p>Content example</p>
+  <header class="header">
+    <div class="side-menu">
+      <div class="logo">
+        <i class="logo__icon"></i>
+        <a href="/" class="logo__text">Site name</a>
+      </div>
+      <nav class="menu">
+        <a href="#" class="menu__item menu__item--active">
+          <i class="menu__icon icon--home"></i>
+          <span class="menu__text">Home</span>
+        </a>
+        <a href="#" class="menu__item">
+          <i class="menu__icon icon--internet"></i>
+          <span class="menu__text">Posts</span>
+        </a>
+        <a href="#" class="menu__item">
+          <i class="menu__icon icon--share"></i>
+          <span class="menu__text">Contacts</span>
+        </a>
+      </nav>
+    </div>
+    <div class="space">
+      <div class="login-form">
+        <form>
+          <div class="login-header">Sign in</div>
+          <input type="text" placeholder="e-mail" class="input login-input" />
+          <input type="password" placeholder="password" class="input login-input" />
+          <button class="button login-button">Login</button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <main class="content">
+    <h1 class="article-header">Lorem ipsum dolor sit amet</h1>
+    <p class="paragraph">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a augue risus. Nullam non mollis ipsum, ac euismod quam. Nam ullamcorper consectetur consequat. Etiam molestie vulputate felis. Sed nec dignissim ante. Duis sagittis magna ut cursus luctus. Sed bibendum eu neque a imperdiet. Aenean eu tempor magna. Vestibulum gravida purus ac velit mollis, in porttitor odio laoreet. Donec justo lorem, accumsan sit amet nulla ut, sodales efficitur est. Praesent blandit nisi vel odio malesuada venenatis. Aliquam lacinia odio sit amet magna vehicula, eget finibus nibh molestie. Etiam arcu turpis, convallis nec leo vulputate, vehicula porta dui. Quisque dignissim ac nibh eget dapibus. Aenean velit erat, molestie convallis orci vel, porta sodales arcu.
+    </p>
+    <p class="paragraph">
+      Duis non imperdiet mauris. Cras et mollis lectus. Sed consectetur semper aliquam. Morbi mollis condimentum libero, id facilisis enim. Nulla facilisi. Fusce eu tortor id metus interdum sollicitudin. In in rutrum eros. Mauris quis libero in dolor placerat posuere at nec sapien. Maecenas sed blandit lectus, quis mollis massa. Pellentesque tempor mi ac nulla fermentum lobortis. Nullam in aliquam ligula. Praesent est leo, vestibulum et ullamcorper nec, accumsan vel enim. Curabitur quis viverra diam. Ut a erat suscipit, tincidunt nunc sit amet, aliquam diam.
+    </p>
+    <p class="paragraph">
+      Donec semper diam a ultrices posuere. Integer tortor magna, vulputate ut lorem a, mattis egestas sem. Praesent et velit pharetra, finibus tellus at, ultricies arcu. Nullam quis metus vel enim pretium elementum id vulputate arcu. Integer vitae ligula eget est placerat rutrum. Morbi varius semper lacus at hendrerit. Donec at enim id tellus fringilla blandit vitae in enim. Integer volutpat quam ut pretium interdum. Vestibulum vel nibh tempus tortor posuere viverra. In blandit porttitor accumsan. Praesent velit enim, consequat eget porta vel, feugiat in orci. Integer ac turpis porttitor, vehicula eros quis, sollicitudin augue. Aliquam orci lorem, interdum eget tempus quis, rutrum in est. Vivamus a iaculis metus. Integer tincidunt pulvinar nunc eu cursus. Nulla facilisi.
+    </p>
+  </main>
 </body>
 </html>
